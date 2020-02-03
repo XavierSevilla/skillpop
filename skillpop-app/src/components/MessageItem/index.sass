@@ -1,0 +1,46 @@
+.itemMessage 
+    background-color: #f1f1f1
+    border: 2px solid #dedede
+    border-radius: 15px
+    // padding: 5px
+    margin: 5px 0
+
+    &__image-left
+        float: left
+        max-width: 40px
+        width: 100%
+        margin-right: 10px
+        border-radius: 50%
+
+    &__image-right
+        float: right
+        max-width: 40px
+        width: 100%
+        margin-right: 5px
+        border-radius: 50%
+
+    &__time-left
+        padding: .1rem
+        float: left
+        color: #999
+
+    &__time-right
+        padding: .1rem
+        float: right
+        color: #aaa
+
+    &__text
+        margin: 2%
+
+.darker
+    border-radius: 15px
+    width: 100%
+    height: 100%
+    border-color: #ccc
+    background-color: #ddd
+
+
+.itemMessage::after 
+    content: ""
+    clear: both
+    display: table
